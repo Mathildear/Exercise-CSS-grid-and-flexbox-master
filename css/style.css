@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+main {
+  font-family: Avenir, Roboto, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem;
+  margin: none;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
+article p {
+  margin: 0.25rem 1rem 1rem;
+}
+
+article h1 {
+  margin: 1rem 1rem 0;
+}
+
+article ul {
+  margin: 0 0 1rem;
+}
+
+article button {
+  background: teal;
+  border-radius: 1rem;
+  align-items: center;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: auto;
+}
